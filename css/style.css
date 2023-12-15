@@ -1,0 +1,26 @@
+
+.hero-box {
+    height: 26rem;
+    background-image: url('https://assets-global.website-files.com/5a9ee6416e90d20001b20038/64df0a6ad38031455e525e70_%20-%2014.jpg');
+    background-size: cover;
+}
+
+.hero-box p, header {
+    margin-left: 20px;
+}
+
+.mini-leigh {
+    position: relative;
+    left: 90rem;
+    bottom: 45rem;
+    height: auto;
+    width: 400px;
+}
+
+section {
+    height: 900px;
+}
+
+.lol {
+    margin-top: 50px;
+}
