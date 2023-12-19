@@ -1,0 +1,11 @@
+.mini {
+    position: relative;
+    height: 200px;
+    width: auto;
+    left: 245px;
+    bottom: 576px;
+}
+
+main {
+    margin-top: 100px;
+}
