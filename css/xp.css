@@ -9,3 +9,27 @@
 main {
     margin-top: 100px;
 }
+
+nav > ul{
+    margin-left: 10rem;
+}
+
+
+@media(max-width: 1025px){
+    .mini {
+        visibility: hidden;
+            height: 0rem;
+            width: 0rem;
+        }
+
+    nav > ul {
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 900px){
+    section {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}

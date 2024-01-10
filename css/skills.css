@@ -15,4 +15,27 @@ main {
     margin-top: 10px;
 }
 
+@media(max-width: 1025px){
+    .mini {
+    visibility: hidden;
+        height: 0rem;
+        width: 0rem;
+    }
+}
+
+@media(max-width: 900px){
+    main {
+        margin-left: 6rem;
+        margin-right: 3rem;
+        width: 35rem;
+    }
+}
+
+@media(max-width: 733px){
+    main {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    }
+}
+
 

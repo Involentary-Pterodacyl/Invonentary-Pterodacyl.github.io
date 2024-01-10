@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'EB Garamond', serif;
     color: #2B303A; 
@@ -5,11 +7,12 @@ body {
     background-color: #DFE4DF;
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    
+    max-width: 100%;
+
 }
 
 .margin {
-    width: 56rem; 
+    width: 50rem; 
     margin: 0rem auto 3rem auto   
 }
 
@@ -43,6 +46,59 @@ h4 {
     font-size: 1.3rem;
 }
 
+@media (max-width: 1024px){
+    p {
+        line-height: 1.5;
+        font-size: 1.82rem;
+        }
+
+        /* h1 {
+            font-size: 5.597rem;
+        } */
+
+        h2 {
+            font-size: 3.957rem; 
+        }
+
+        h3 {
+            font-size: 2.798rem;
+        }
+
+        h4 {
+            font-size: 1.82rem;
+        }
+
+        a {
+            font-size: 1.6rem;
+        }
+}
+
+@media (max-width: 603px){
+    p {
+        line-height: 1.5;
+        font-size: 2.73rem;
+        }
+
+        /* h1 {
+            font-size: 8.395rem;
+        } */
+
+        h2 {
+            font-size: 5.935rem; 
+        }
+
+        h3 {
+            font-size: 4.197rem;
+        }
+
+        h4 {
+            font-size: 2.73rem;
+        }
+        a {
+            font-size: 2.5rem;
+        }
+    }
+
 a {
     text-decoration: none;
 }
@@ -73,7 +129,6 @@ nav a:hover {
 nav > ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 64px;
     list-style-type: none;
 }
